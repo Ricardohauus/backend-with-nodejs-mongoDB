@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 mongoose.connect(
-  "mongodb+srv://root:root@cluster0-mfv6g.mongodb.net/test?retryWrites=true&w=majority",
+  "",
   {
     useCreateIndex: true,
     useNewUrlParser: true
